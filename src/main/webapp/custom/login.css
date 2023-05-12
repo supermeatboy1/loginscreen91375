@@ -90,7 +90,7 @@ a:hover {
     	background-repeat: no-repeat;
     	background-attachment: scroll;
     	
-    	font-size: 0.8em;
+    	font-size: 1.0em;
 	}
 	.left_column {
 		/* background-color: #ec1f28; */
@@ -131,16 +131,18 @@ a:hover {
 /* Landscape Orientation (Desktops and PCs) */
 /* ================================================================================================= */
 
-@media only screen and (min-aspect-ratio: 16/10) and (orientation: landscape) {
+@media only screen and (min-aspect-ratio: 4/3) and (orientation: landscape) {
 	body {
-		background-size: 100%;
+		background-size: cover;
 		/* background: linear-gradient(110deg, #ec1f28, #ec1f28 50%, #f0f0f0 50%, #f0f0f0); */
+		background-color: white;
 		background-image: url("/UltraBabyTask/custom-img/login-background-landscape.jpg");
 		font-family: "Open Sans", sans-serif;
 		height: 100%;
     	margin: 0;
     	background-repeat: no-repeat;
     	background-attachment: scroll;
+    	background-position: center 0;
     	font-size: 1.0em;
 	}
 	.left_column {
@@ -173,10 +175,8 @@ a:hover {
 		float: right;
 		width: 40%;
 		bottom: 0;
-	
-		margin-left: auto;
-		margin-right: auto;
-		
+
+		margin: 0 auto;
 		color: black;
 	}
 	.footer_link {
