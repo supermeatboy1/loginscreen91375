@@ -11,13 +11,16 @@ h1 {
 	color: white;
 }
 a {
-	color: red;
+	color: #ec1f28;
 }
 a:hover {
 	color: blue;
 }
 .center {
 	text-align: center;
+}
+.left {
+	text-align: left;
 }
 .mmcm_logo {
 	width: 30%;
@@ -29,12 +32,12 @@ a:hover {
 }
 .announcement {
 	width: 75%;
-	padding-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
+	border: 1px solid white;
+	box-shadow: 1.0em 1.0em 0.5em #770000;
 }
 .user_input_div {
-	text-align: left;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,17 +51,19 @@ a:hover {
 	outline: 3px solid transparent;
 	
 	color: black;
+	background: none;
 }
 .user_input:focus {
-	border-bottom: 3px red solid;
+	border-bottom: 3px #ec1f28 solid;
 }
 .sign_up {
 	width: 100%;
 	height: 3.0em;
 	border: 3px solid black;
+	border-radius: 3px;
 	background: none;
 }
-.forgor_link {
+.forgot_link {
 	text-decoration: none;
 }
 .footer {
@@ -72,24 +77,30 @@ a:hover {
 
 /* Media Queries */
 
+/* ================================================================================================= */
 /* Portrait Orientation (Mobile Phones) */
-@media (orientation: portrait) {
+/* ================================================================================================= */
+
+@media only screen and (min-width: 0) {
 	body {
-		background: red;
+		background: rgba(236, 32, 40, 0.9);
 		font-family: "Open Sans", sans-serif;
 		height: 100%;
     	margin: 0;
     	background-repeat: no-repeat;
-    	background-attachment: fixed;
+    	background-attachment: scroll;
     	
-    	font-size: 2.0em;
+    	font-size: 0.8em;
 	}
 	.left_column {
-		background-color: red;
-		width: 100%;
+		/* background-color: #ec1f28; */
+		background-image: url("/UltraBabyTask/custom-img/login-background-square.jpg");
+		background-size: cover;
+		height: 100%;
+		padding-bottom: 2.0em;
 	}
 	.right_column {
-		background-color: white;
+		background-color: #f0f0f0;
 		width: 100%;
 	}
 	.user_input_p {
@@ -103,7 +114,7 @@ a:hover {
 		margin-top: 2.0em;
 		font-size: 1.0em;
 	}
-	.forgor {
+	.forgot {
 		margin-top: 1.0em;
 		text-align: center;
 	}
@@ -115,24 +126,33 @@ a:hover {
 		color: white;
 	}
 }
+
+/* ================================================================================================= */
 /* Landscape Orientation (Desktops and PCs) */
-@media (orientation: landscape) and (min-aspect-ratio: 8/7) {
+/* ================================================================================================= */
+
+@media only screen and (min-aspect-ratio: 16/10) and (orientation: landscape) {
 	body {
-		background: linear-gradient(110deg, red, red 50%, white 50%, white);
+		background-size: 100%;
+		/* background: linear-gradient(110deg, #ec1f28, #ec1f28 50%, #f0f0f0 50%, #f0f0f0); */
+		background-image: url("/UltraBabyTask/custom-img/login-background-landscape.jpg");
 		font-family: "Open Sans", sans-serif;
 		height: 100%;
     	margin: 0;
     	background-repeat: no-repeat;
-    	background-attachment: fixed;
+    	background-attachment: scroll;
+    	font-size: 1.0em;
 	}
 	.left_column {
 		float: left;
 		width: 40%;
 		margin-bottom: 4.0em;
+		background: none;
 	}
 	.right_column {
 		float: right;
 		width: 40%;
+		background: none;
 	}
 	.user_input_p {
 		font-size: 1.2em;
@@ -144,9 +164,10 @@ a:hover {
 		height: 3.0em;
 		margin-top: 4.0em;
 	}
-	.forgor {
+	.forgot {
 		margin-top: 0.5em;
 		float: right;
+		text-align: right;
 	}
 	.footer {
 		float: right;
@@ -155,48 +176,10 @@ a:hover {
 	
 		margin-left: auto;
 		margin-right: auto;
-	}
-}
-/* Square Orientation */
-@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 1/1) {
-	body {
-		background: red;
-		font-family: "Open Sans", sans-serif;
-		height: 100%;
-    	margin: 0;
-    	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	
-    	font-size: 2.0em;
-	}
-	.left_column {
-		background-color: red;
-		width: 100%;
-	}
-	.right_column {
-		background-color: white;
-		width: 100%;
-	}
-	.user_input_p {
-		font-size: 1.0em;
-	}
-	.user_input {
-		font-size: 1.8em;
-	}
-	.sign_up {
-		height: 2.5em;
-		margin-top: 2.0em;
-		font-size: 1.0em;
-	}
-	.forgor {
-		margin-top: 1.0em;
-		text-align: center;
-	}
-	.footer {
-		color: white;
-		padding-top: 3.0em;
+		
+		color: black;
 	}
 	.footer_link {
-		color: white;
+		color: #ec1f28;
 	}
 }
