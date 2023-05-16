@@ -59,7 +59,7 @@
 					<p>Thursday, September 27, 2022</p>
 				</div>
 				<div class="announcement_content">
-					<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<p>Test Announcement Content! Lorem ipsum docet</p>
 				</div>
 			</div>
 			<div class="announcement_div">
