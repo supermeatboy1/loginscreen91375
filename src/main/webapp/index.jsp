@@ -9,10 +9,10 @@
 <link href="custom/login.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-<div style="width: 100%; overflow: auto;">
+<div class="overview">
 	<div class="right_column center">
 		<div class="center">
-			<img class="mmcm_digital_logo" src="custom-img/MMCM DIGITAL - FULL RED.png" alt="MMCM Digital Logo">
+			<img class="mmcm_digital_logo" src="custom-img/MMCM DIGITAL - FULL BLACK.png" alt="MMCM Digital Logo">
 		</div>
 		<div class="user_input_div">
 			<div class="left">
@@ -31,11 +31,61 @@
 		<br><br>
 	</div>
 	<div class="left_column center">
+		<div class="left_column_content">
 		<div class="center">
 			<img class="mmcm_logo" src="custom-img/MMCM Logo Final-white-1.png" alt="Mapua Malayan Colleges Mindanao Logo">
 		</div>
 		<br><br>
+		<!-- 
 		<img class="announcement" src="https://raw.githubusercontent.com/ideals-mmcm/Announcements/main/ANNOUNCEMENT.png" alt="Announcement">
+		 -->
+		<div class="announcements_section">
+			<div class="announcement_div">
+				<div class="announcement_title">
+					<p>A Very Elaborate Test Title.</p>
+				</div>
+				<div class="announcement_date">
+					<p>Thursday, September 27, 2022</p>
+				</div>
+				<div class="announcement_content">
+					<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="announcement_div">
+				<div class="announcement_title">
+					<p>A Very Elaborate Test Title.</p>
+				</div>
+				<div class="announcement_date">
+					<p>Thursday, September 27, 2022</p>
+				</div>
+				<div class="announcement_content">
+					<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="announcement_div">
+				<div class="announcement_title">
+					<p>A Very Elaborate Test Title.</p>
+				</div>
+				<div class="announcement_date">
+					<p>Thursday, September 27, 2022</p>
+				</div>
+				<div class="announcement_content">
+					<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="announcement_div">
+				<div class="announcement_title">
+					<p>A Very Elaborate Test Title.</p>
+				</div>
+				<div class="announcement_date">
+					<p>Thursday, September 27, 2022</p>
+				</div>
+				<div class="announcement_content">
+					<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		</div>
 	</div>
 	<div class="footer center">
 		<p><a href="#" class="footer_link">View Course Catalog</a></p>
