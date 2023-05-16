@@ -36,9 +36,10 @@
 			<img class="mmcm_logo" src="custom-img/MMCM Logo Final-white-1.png" alt="Mapua Malayan Colleges Mindanao Logo">
 		</div>
 		<br><br>
-		<!-- 
-		<img class="announcement" src="https://raw.githubusercontent.com/ideals-mmcm/Announcements/main/ANNOUNCEMENT.png" alt="Announcement">
-		 -->
+		<div class="container">
+			<iframe class="announcement_frame" src="announcement-frame.jsp"></iframe>
+		</div>
+		 <!-- 
 		<div class="announcements_section">
 			<div class="announcement_div">
 				<div class="announcement_title">
@@ -85,6 +86,7 @@
 				</div>
 			</div>
 		</div>
+		-->
 		</div>
 	</div>
 	<div class="footer center">
