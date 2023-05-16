@@ -188,7 +188,7 @@ a:hover {
     	background-attachment: scroll;
     	background-position: center center;
     	
-		clip-path: polygon(0 0, 61% 0, 56% 100%, 0 100%);
+		clip-path: polygon(0 0, 55% 0, 45% 100%, 0 100%);
 		position: absolute;
 		content: "";
 		left: 0;
@@ -199,7 +199,7 @@ a:hover {
 	}
 	.left_column {
 		float: left;
-		width: 59.5%;
+		width: 49.5%;
 		margin-bottom: 4.0em;
 		background: none;
 		background-size: cover;
@@ -210,7 +210,7 @@ a:hover {
 	}
 	.right_column {
 		float: right;
-		width: 39.5%;
+		width: 49.5%;
 		background: none;
 	}
 	.user_input_p {
@@ -230,7 +230,7 @@ a:hover {
 	}
 	.footer {
 		float: right;
-		width: 39.5%;
+		width: 49.5%;
 		bottom: 0;
 
 		margin: 0 auto;
